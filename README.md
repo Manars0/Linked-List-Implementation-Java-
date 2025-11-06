@@ -36,6 +36,7 @@ public class Node<T> {
         next = null;
     }
 }
+```
 **Example Test** (from TestLinkedList.java)
 
 This example demonstrates how to create and test the custom LinkedList class.
@@ -60,7 +61,7 @@ public class TestLinkedList {
         System.out.println("Is 'nouf' in the list? " + Names.search("nouf"));
     }
 }
-
+```
 **Example Console Output:**
 ```
 Manar
@@ -68,3 +69,8 @@ Fay
 Haya
 List size: 3
 Is 'nouf' in the list? false
+```
+## Author
+**Manar Salem**  
+Programming and Database Student  
+[https://github.com/Manars](https://github.com/Manars)
