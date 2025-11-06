@@ -36,3 +36,35 @@ public class Node<T> {
         next = null;
     }
 }
+**Example Test** (from TestLinkedList.java)
+
+This example demonstrates how to create and test the custom LinkedList class.
+It shows how to add, print, and search elements in the list.
+```
+package linkedList;
+
+public class TestLinkedList {
+    public static void main(String[] args) {
+        LinkedList<String> Names = new LinkedList<String>();
+        Names.addLast("Manar");
+        Names.addLast("Fay");
+        Names.addLast("Haya");
+        
+        // Print the list
+        Names.printList();
+        
+        // Display size
+        System.out.println("List size: " + Names.size());
+        
+        // Search for a name
+        System.out.println("Is 'nouf' in the list? " + Names.search("nouf"));
+    }
+}
+
+**Example Console Output:**
+```
+Manar
+Fay
+Haya
+List size: 3
+Is 'nouf' in the list? false
